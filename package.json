@@ -27,6 +27,8 @@
     "pdfkit": "^0.13.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
     "jest": "^27.5.1",
     "jsdoc": "3.6.7"
   }
