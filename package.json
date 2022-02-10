@@ -11,8 +11,19 @@
     "coverage": "jest --coverage",
     "jsdoc": "jsdoc --configure jsdoc.json"
   },
+  "bin": {
+    "markdown-to-pdf": "bin/markdown-to-pdf.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "engines": {
+    "node": ">= 12"
+  },
   "dependencies": {
     "marked": "^4.0.12",
+    "minimist": "^1.2.5",
     "pdfkit": "^0.13.0"
   },
   "devDependencies": {
